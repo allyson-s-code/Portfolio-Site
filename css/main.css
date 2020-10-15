@@ -1,0 +1,164 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+
+header {
+    height: 400px;
+}
+#home-header {
+    height: 400px;
+    background-image: url('../img/main-img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 36px;
+    color: black;
+    padding: 50px 0 0 50px;
+}
+
+nav {
+    float: right;
+    padding: 75px 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding-left: 60px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Source Sans Pro',san-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    padding: 0 0 20px 50px;
+}
+
+
+/**** ABOUT *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 24px;
+    padding-left:  50px;
+}
+#about p {
+    font-size: 21px;
+    color: #7F7F7F;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/****** WORK ******/
+#work {
+    text-align: center;
+}
+
+#work .full-width {
+    border-top: 1px solid #2f84dc;
+    border-bottom: 1px solid #2f84dc;
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+    text-transform: lowercase;
+}
+
+#work p {
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #7F7F7F;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/***** CONTACT *****/
+
+#contact .full-width {
+    padding: 80px 0;
+}
+
+
+#contact #email-header{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    float: left;
+    padding-left: 460px;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
+
+/******* WORK PAGE ********/
+
+#work-header h2{
+    color: #055fa5;
+    font-size: 24px;
+    text-transform: lowercase;
+    font-weight: 700;
+}
+
+.grid {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-column-gap: 25px;
+  }
+.grid > div {
+  border: 5px solid black;
+  text-align: center;
+}
